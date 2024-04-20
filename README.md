@@ -24,7 +24,7 @@ $page = isset($_GET['page']) ? max(1, $_GET['page']) : 1; // Get current page nu
 $perPage = 20; // Items per page
 echo "Data (Page $page):\n";
 retrieveAndPrintPaginatedData($page, $perPage);
-
+```
 
 ## Requirements
 1. PHP (with DOM extension enabled)
